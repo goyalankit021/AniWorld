@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E0D0D"
+    tools:context=".InformationPage">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif-black"
+            android:text="How To Use AniWorld"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:id="@+id/howToStart"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/howToStart"
+            android:lineSpacingExtra="8sp"
+            android:text="♠Click on Press Start  on the home screen\n♠Give access to camera perrmission\n♠Now you can see 2 buttons\n♠Butoon with music icon can be used to play and stop music\n♠Press button with scan icon and select image of any of the animals specified here\n♠Wait for a while and you will see model built written over there\n♠Face camera of your phone towards the floor and you will see white dots.\n♠Click on these dots and 3D model of animal you scanned will appear here\n♠Supported Animals:Buuterfly, Deer, Dog, Duck, Dolphin, Eagle, Elephant, Gorilla, Housefly, Penguin, Pigeon, Python, Raccoon, Scorpion, Sparrow, Squirrel, Tiger, Tortoise, Turle\n♠Play around it by scanning people and showing them which animal they resembles."
+            android:textAlignment="textStart"
+            android:textColor="@android:color/white"
+            android:id="@+id/textInfo"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textInfo"
+            android:text="♠Note"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:id="@+id/note"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/note"
+            android:lineSpacingExtra="8sp"
+            android:text="♠Even if you scan wrong image then also model of any of this animals will appear\n♠If wrong model appear please try again or with another image\n♠Thank You for using AniWorld"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>

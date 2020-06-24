@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "326283227501",
+    "firebase_url": "https://aniworld-47d99.firebaseio.com",
+    "project_id": "aniworld-47d99",
+    "storage_bucket": "aniworld-47d99.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326283227501:android:d473f106bcdebf48b0ea64",
+        "android_client_info": {
+          "package_name": "com.example.aniworld"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326283227501-0ruv3lvrvun1cp9145dms8ev3fbn27rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlhgu4SuLKLkuVIPRbe3C0rH-k6liPXu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "326283227501-0ruv3lvrvun1cp9145dms8ev3fbn27rj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
